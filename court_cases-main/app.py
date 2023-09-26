@@ -4,7 +4,7 @@ import pickle
 import math
 
 def load_model():
-    with open('court_cases-main/cases.sav','rb') as file:
+    with open('cases.sav','rb') as file:
         model = pickle.load(file)
     return model
 
